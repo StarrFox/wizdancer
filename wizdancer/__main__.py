@@ -1,11 +1,8 @@
 import asyncio
-import ctypes
 
 from wizwalker import ClientHandler
 
 from .utils import *
-
-user32 = ctypes.windll.user32
 
 
 async def ignore_pet_level_up(client, pet_game_window):
